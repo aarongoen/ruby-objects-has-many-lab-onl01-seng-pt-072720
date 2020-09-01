@@ -16,7 +16,12 @@ class Post
   end 
   
   def author_name
+<<<<<<< HEAD
     author ? self.author.name : nil 
+=======
+    # Author.all.find {|author| post.author == author.name}
+      author ? self.author.name : nil 
+>>>>>>> 35bd4067a44d572331b246cb2b6d0cde3050d35d
   end 
     
   
